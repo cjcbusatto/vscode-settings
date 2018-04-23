@@ -1,0 +1,111 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Console Log": {
+	 	"prefix": "cl",
+	 	"body": [
+	 		"console.log('$1');",
+	 		"$2"
+	 	],
+	 	"description": "Log output to console"
+	},
+	"Console Error": {
+	 	"prefix": "ce",
+	 	"body": [
+	 		"console.error('$1');",
+	 		"$2"
+	 	],
+	 	"description": "Log error output to console"
+	},
+	"Console Warning": {
+	 	"prefix": "cw",
+	 	"body": [
+	 		"console.warn('$1');",
+	 		"$2"
+	 	],
+	 	"description": "Log warning output to console"
+	},
+	"Debugger": {
+		"prefix": "de",
+		"body": [
+			"debugger;"
+		],
+		"description": "Add the 'debugger' statement"
+	},
+	"Print to window console": {
+		"prefix": "wcl",
+		"body": [
+			"window.console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to window console"
+	},
+	"Function": {
+		"prefix": "fn",
+		"body": [
+			"function ${1:methodName} (${2:arguments}) {",
+			"${3:// body}",
+			"}"
+		],
+		"description": "Write a function structure"
+	},
+	"JSON parse": {
+		"prefix": "jp",
+		"body": [
+			"JSON.parse(${1:obj});"
+		],
+		"description": "JSON.parse method"
+	},
+	"JSON stringify": {
+		"prefix": "js",
+		"body": [
+			"JSON.stringify(${1:obj});"
+		],
+		"description": "JSON.stringify method"
+	},
+	"Set Interval": {
+		"prefix": "si",
+		"body": [
+				"setInterval(function() {",
+				"${0:// code}",
+				"}, ${1:1000});"
+			],
+		"description": "setInterval()"
+	},
+	"Set Timeout": {
+		"prefix": "st",
+		"body": [
+				"setTimeout(function() {",
+				"${0:// code}",
+				"}, ${1:1000});"
+		]
+	},
+	"import": {
+		"prefix": "imp",
+		"body": "import ${2:moduleName} from '${1:module}';$0",
+		"description": "Imports entire module statement in ES6 syntax"
+	},
+  	"constructor": {
+		"prefix": "con",
+		"body": "constructor(${1:params}) {\n\t${0}\n}",
+		"description": "Add default constructor in a class in ES6 syntax"
+	},
+  	"forEach": {
+		"prefix": "fre",
+		"body": "${1:array}.forEach(${2:currentItem} => {\n\t${0}\n});",
+		"description": "Creates a forEach statement in ES6 syntax"
+	},
+  	"forOf": {
+		"prefix": "fof",
+		"body": "for (const ${1:item} of ${2:object}) {\n\t${0}\n}",
+		"description": "Iterating over property names of iterable objects"
+	},
+  	"forIn": {
+		"prefix": "fin",
+		"body": "for (const ${1:item} in ${2:object}) {\n\t${0}\n}",
+		"description": "Iterating over property values of iterable objects"
+	}
+}
