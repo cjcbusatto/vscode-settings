@@ -8,5 +8,7 @@
     ],
     "git.autofetch": true,
     "window.zoomLevel": 0,
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "todohighlight.keywords": ["TODO"],
+    "prettier.printWidth": 120
 }
