@@ -18,7 +18,7 @@ The `installed-extensions.ps1` file is generated through the `backup-extensions.
 | Command | Description |
 |---------|-------------|
 <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd> | Duplicate the line
-<kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | Reformat the code using [`prettier`](https://github.com/prettier/prettier-vscode) extension
+<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> | Reformat the code using [`prettier`](https://github.com/prettier/prettier-vscode) extension
 
 ## settings.json
 | Command | Type | Description |
@@ -30,7 +30,7 @@ The `installed-extensions.ps1` file is generated through the `backup-extensions.
 "editor.rulers" | number[] | Each element of the array insert a ruler where the position is based on the number inserted
 "git.autofetch" | boolean | Enable to periodically fetch changes from your remotes
 "window.zoomLevel" | number | Adjust the zoom level
-"editor.mouseWheelZoom" | boolean | Enable the keybinding <kbd>CTRL</kbd>+<kbd>Scroll</kbd> to change the zoom
+"editor.mouseWheelZoom" | boolean | Enable the keybinding <kbd>CTRL</kbd>+<kbd>MouseScroll</kbd> to change the zoom
 "todohighlight.keywords" | string[] | Each element of the array is a `keyword` for [`TODO Higlight`](https://github.com/wayou/vscode-todo-highlight) extension. 
 "prettier.printWidth" | number | Number of characters per line. This information is used by `prettier` to format code.
 
