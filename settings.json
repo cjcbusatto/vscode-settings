@@ -10,5 +10,10 @@
     "window.zoomLevel": 0,
     "editor.mouseWheelZoom": true,
     "todohighlight.keywords": ["TODO"],
-    "prettier.printWidth": 120
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "workbench.statusBar.feedback.visible": false
 }
