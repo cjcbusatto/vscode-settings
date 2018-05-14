@@ -1,19 +1,22 @@
 {
-    "git.ignoreMissingGitWarning": true,
-    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
-    "python.linting.enabled": true,
     "editor.glyphMargin": true,
+    "editor.mouseWheelZoom": true,
     "editor.rulers": [
         120
     ],
     "git.autofetch": true,
-    "window.zoomLevel": 0,
-    "editor.mouseWheelZoom": true,
-    "todohighlight.keywords": ["TODO"],
+    "git.ignoreMissingGitWarning": true,
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
     "prettier.printWidth": 120,
-    "prettier.tabWidth": 4,
-    "prettier.useTabs": false,
     "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
     "prettier.trailingComma": "es5",
+    "prettier.useTabs": false,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Users\\cbusa\\Anaconda3",
+    "todohighlight.keywords": [
+        "TODO"
+    ],
+    "window.zoomLevel": 0,
     "workbench.statusBar.feedback.visible": false
 }
