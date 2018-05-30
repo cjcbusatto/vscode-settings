@@ -12,11 +12,13 @@
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "es5",
     "prettier.useTabs": false,
+    "prettier.arrowParens": "always",
     "python.linting.enabled": true,
     "python.pythonPath": "C:\\Users\\cbusa\\Anaconda3",
     "todohighlight.keywords": [
         "TODO"
     ],
     "window.zoomLevel": 0,
-    "workbench.statusBar.feedback.visible": false
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.startupEditor": "newUntitledFile"
 }
