@@ -6,7 +6,7 @@
     ],
     "git.autofetch": true,
     "git.ignoreMissingGitWarning": true,
-    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.1.14-Win32-VC14-x64\\php.exe",
     "prettier.printWidth": 120,
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
