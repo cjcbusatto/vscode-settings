@@ -2,7 +2,7 @@
 
 ## snippets
 ### TypeScript / Javascript
-<table class="table">
+<table>
     <thead>
         <tr>
             <td>Snippet</td>
