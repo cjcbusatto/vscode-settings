@@ -12,77 +12,77 @@
     <tbody>
         <tr>
             <td>cl</td>
-            <td><pre>console.log('$1');</pre></td>
+            <td><pre lang="javascript">console.log('$1');</pre></td>
         </tr>
         <tr>
             <td>ce</td>
-            <td><pre>console.error('$1');</pre><td>
+            <td><pre lang="javascript">console.error('$1');</pre><td>
         </tr>
         <tr>
             <td>cw</td>
-            <td><pre>console.warn('$1');</pre></td> 
+            <td><pre lang="javascript">console.warn('$1');</pre></td> 
         </tr>
         <tr>
             <td>de</td>
-            <td><pre>debugger;</pre></td>            
+            <td><pre lang="javascript">debugger;</pre></td>            
         </tr>
         <tr>
-            <td>wcl</td><td><pre>window.console.log('$1');</pre></td>
+            <td>wcl</td><td><pre lang="javascript">window.console.log('$1');</pre></td>
         </tr>
         <tr>
             <td>fn</td>
-            <td><pre>function ${1:methodName} (${2:arguments}) { 
+            <td><pre lang="javascript">function ${1:methodName} (${2:arguments}) { 
     ${3:// body }
 } </pre></td>
         </tr>
         <tr>
             <td>jp</td>
-            <td><pre>JSON.parse(${1:obj});</pre></td>
+            <td><pre lang="javascript">JSON.parse(${1:obj});</pre></td>
         </tr>
         <tr>
             <td>js</td>
-            <td><pre>JSON.stringify(${1:obj});</pre></td>
+            <td><pre lang="javascript">JSON.stringify(${1:obj});</pre></td>
         </tr>
         <tr>
             <td>si</td>
-            <td><pre>setInterval(function() { 
+            <td><pre lang="javascript">setInterval(function() { 
     ${0: // code}
 }, ${1:1000});</pre>
             </td>
         </tr>
         <tr>
-            <td>st</td><td><pre>setTimeout(function() {
+            <td>st</td><td><pre lang="javascript">setTimeout(function() {
     ${0: // code}
 }, ${1:1000});</pre></td>     
         </tr>
         <tr>
             <td>imp</td>
-            <td><pre>import ${1:moduleName} from '${1:module}';$0</pre></td>
+            <td><pre lang="javascript">import ${1:moduleName} from '${1:module}';$0</pre></td>
         </tr>
         <tr>
-            <td>con</td><td><pre>constructor(${1:params}) {${0}}</pre></td>
+            <td>con</td><td><pre lang="javascript">constructor(${1:params}) {${0}}</pre></td>
         </tr>
         <tr>
             <td>fre</td>
-            <td><pre>${1:array}.forEach(${2:currentItem} => {
+            <td><pre lang="javascript">${1:array}.forEach(${2:currentItem} => {
     ${0}
 })</pre></td>
         </tr>
         <tr>
             <td>fof</td>
-            <td><pre>for (const ${1:item} of ${2:object}) {
+            <td><pre lang="javascript">for (const ${1:item} of ${2:object}) {
     ${0}
 }</pre></td>
         </tr>
         <tr>
             <td>fin</td>
-            <td><pre>for (const ${1:item} in ${2:object}) {
+            <td><pre lang="javascript">for (const ${1:item} in ${2:object}) {
     ${0}
 }</pre></td>
         </tr>
         <tr>
             <td>cls</td>
-            <td><pre>class ${1:name} {
+            <td><pre lang="javascript">class ${1:name} {
     ${0}
 }</pre></td>
         </tr>
