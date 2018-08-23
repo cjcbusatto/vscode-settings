@@ -2,7 +2,7 @@
 
 ## snippets
 ### TypeScript / Javascript
-<table style="background-color:#FFF;">
+<table class="table">
     <thead>
         <tr>
             <td>Snippet</td>
