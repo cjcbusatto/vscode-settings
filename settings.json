@@ -14,11 +14,18 @@
     "prettier.useTabs": false,
     "prettier.arrowParens": "always",
     "python.linting.enabled": true,
-    "python.pythonPath": "C:\\Users\\cbusa\\Anaconda3",
+    "python.pythonPath": "C:\\Users\\cbusa\\AppData\\Local\\Programs\\Python\\Python36-32\\",
     "todohighlight.keywords": [
         "TODO"
     ],
+    "[python]": {
+        "editor.formatOnSave": true
+    },
     "window.zoomLevel": 0,
     "workbench.statusBar.feedback.visible": false,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "materialTheme.fixIconsRunning": false,
+    "vsicons.projectDetection.autoReload": true,
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.colorTheme": "Material Theme"
 }
