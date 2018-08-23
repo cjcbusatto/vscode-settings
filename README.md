@@ -2,30 +2,92 @@
 
 ## snippets
 ### TypeScript / Javascript
-|          Snippet              |            Output            |
-|-------------------------------|------------------------------|
-| cl  | `console.log('$1');`                                   |
-| ce  | `console.error('$1');`                                 |
-| cw  | `console.warn('$1');`                                  |
-| de  | `debugger;`                                            |
-| wcl | `window.console.log('$1');`                            |
-| fn  | `function ${1:methodName} (${2:arguments}) {`          |
-|     | `${3:// body }`                                        |
-|     | `} `                                                   |
-| jp  | `JSON.parse(${1:obj});`                                |
-| js  | `JSON.stringify(${1:obj});`                            |
-| si  | `setInterval(function() { `                            |
-|     |	` ${0: // code} `                                      | 
-|     | `},${1:1000});`                                        |
-| st  | `setTimeout(function() {`                              |
-|     | `${0: // code}`                                        |
-|	  |	`}, ${1:1000});`                                       |
-| imp | `import ${1:moduleName} from '${1:module}';$0`         |
-| con | `constructor(${1:params}) {${0}}`                      |
-| fre | `${1:array}.forEach(${2:currentItem} => {\n\t${0}\n})` |
-| fof | `for (const ${1:item} of ${2:object}) {\n\t${0}\n}`    |
-| fin | `for (const ${1:item} in ${2:object}) {\n\t${0}\n}`    |
-| cls | `class ${1:name} {\n\t${0}\n}`                         |
+<table>
+    <thead>
+        <tr>
+            <td>Snippet</td>
+            <td>Output</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>cl</td>
+            <td><pre>console.log('$1');</pre></td>
+        </tr>
+        <tr>
+            <td>ce</td>
+            <td><pre>console.error('$1');</pre><td>
+        </tr>
+        <tr>
+            <td>cw</td>
+            <td><pre>console.warn('$1');</pre></td> 
+        </tr>
+        <tr>
+            <td>de</td>
+            <td><pre>debugger;</pre></td>            
+        </tr>
+        <tr>
+            <td>wcl</td><td><pre>window.console.log('$1');</pre></td>
+        </tr>
+        <tr>
+            <td>fn</td>
+            <td><pre>function ${1:methodName} (${2:arguments}) { 
+    ${3:// body }
+} </pre></td>
+        </tr>
+        <tr>
+            <td>jp</td>
+            <td><pre>JSON.parse(${1:obj});</pre></td>
+        </tr>
+        <tr>
+            <td>js</td>
+            <td><pre>JSON.stringify(${1:obj});</pre></td>
+        </tr>
+        <tr>
+            <td>si</td>
+            <td><pre>setInterval(function() { 
+    ${0: // code}
+}, ${1:1000});</pre>
+            </td>
+        </tr>
+        <tr>
+            <td>st</td><td><pre>setTimeout(function() {
+    ${0: // code}
+}, ${1:1000});</pre></td>     
+        </tr>
+        <tr>
+            <td>imp</td>
+            <td><pre>import ${1:moduleName} from '${1:module}';$0</pre></td>
+        </tr>
+        <tr>
+            <td>con</td><td><pre>constructor(${1:params}) {${0}}</pre></td>
+        </tr>
+        <tr>
+            <td>fre</td>
+            <td><pre>${1:array}.forEach(${2:currentItem} => {
+    ${0}
+})</pre></td>
+        </tr>
+        <tr>
+            <td>fof</td>
+            <td><pre>for (const ${1:item} of ${2:object}) {
+    ${0}
+}</pre></td>
+        </tr>
+        <tr>
+            <td>fin</td>
+            <td><pre>for (const ${1:item} in ${2:object}) {
+    ${0}
+}</pre></td>
+        </tr>
+        <tr>
+            <td>cls</td>
+            <td><pre>class ${1:name} {
+    ${0}
+}</pre></td>
+        </tr>
+    </tbody>
+</table>
 
 ## reinstall-extensions.ps1
 
