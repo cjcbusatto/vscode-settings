@@ -2,7 +2,7 @@
 
 ## snippets
 ### TypeScript / Javascript
-<table>
+<table style="background-color:#FFF;">
     <thead>
         <tr>
             <td>Snippet</td>
@@ -16,8 +16,8 @@
         </tr>
         <tr>
             <td>ce</td>
-            <td><pre lang="javascript">console.error('$1');</pre><td>
-        </tr>
+            <td><pre lang="javascript">console.error('$1');</pre></td>
+            </tr>
         <tr>
             <td>cw</td>
             <td><pre lang="javascript">console.warn('$1');</pre></td> 
@@ -51,7 +51,8 @@
             </td>
         </tr>
         <tr>
-            <td>st</td><td><pre lang="javascript">setTimeout(function() {
+            <td>st</td>
+            <td><pre lang="javascript">setTimeout(function() {
     ${0: // code}
 }, ${1:1000});</pre></td>     
         </tr>
@@ -60,7 +61,8 @@
             <td><pre lang="javascript">import ${1:moduleName} from '${1:module}';$0</pre></td>
         </tr>
         <tr>
-            <td>con</td><td><pre lang="javascript">constructor(${1:params}) {${0}}</pre></td>
+            <td>con</td>
+            <td><pre lang="javascript">constructor(${1:params}) {${0}}</pre></td>
         </tr>
         <tr>
             <td>fre</td>
