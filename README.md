@@ -1,17 +1,101 @@
 # vscode-settings
 
 ## snippets
-TBD
-### TypeScript
-TBD
-### JavaScript
-TBD
+### TypeScript / Javascript
+<table>
+    <thead>
+        <tr>
+            <td>Snippet</td>
+            <td>Output</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>cl</td>
+            <td><pre lang="javascript">console.log('$1');</pre></td>
+        </tr>
+        <tr>
+            <td>ce</td>
+            <td><pre lang="javascript">console.error('$1');</pre></td>
+            </tr>
+        <tr>
+            <td>cw</td>
+            <td><pre lang="javascript">console.warn('$1');</pre></td> 
+        </tr>
+        <tr>
+            <td>de</td>
+            <td><pre lang="javascript">debugger;</pre></td>            
+        </tr>
+        <tr>
+            <td>wcl</td><td><pre lang="javascript">window.console.log('$1');</pre></td>
+        </tr>
+        <tr>
+            <td>fn</td>
+            <td><pre lang="javascript">function ${1:methodName} (${2:arguments}) { 
+    ${3:// body }
+} </pre></td>
+        </tr>
+        <tr>
+            <td>jp</td>
+            <td><pre lang="javascript">JSON.parse(${1:obj});</pre></td>
+        </tr>
+        <tr>
+            <td>js</td>
+            <td><pre lang="javascript">JSON.stringify(${1:obj});</pre></td>
+        </tr>
+        <tr>
+            <td>si</td>
+            <td><pre lang="javascript">setInterval(function() { 
+    ${0: // code}
+}, ${1:1000});</pre>
+            </td>
+        </tr>
+        <tr>
+            <td>st</td>
+            <td><pre lang="javascript">setTimeout(function() {
+    ${0: // code}
+}, ${1:1000});</pre></td>     
+        </tr>
+        <tr>
+            <td>imp</td>
+            <td><pre lang="javascript">import ${1:moduleName} from '${1:module}';$0</pre></td>
+        </tr>
+        <tr>
+            <td>con</td>
+            <td><pre lang="javascript">constructor(${1:params}) {${0}}</pre></td>
+        </tr>
+        <tr>
+            <td>fre</td>
+            <td><pre lang="javascript">${1:array}.forEach(${2:currentItem} => {
+    ${0}
+})</pre></td>
+        </tr>
+        <tr>
+            <td>fof</td>
+            <td><pre lang="javascript">for (const ${1:item} of ${2:object}) {
+    ${0}
+}</pre></td>
+        </tr>
+        <tr>
+            <td>fin</td>
+            <td><pre lang="javascript">for (const ${1:item} in ${2:object}) {
+    ${0}
+}</pre></td>
+        </tr>
+        <tr>
+            <td>cls</td>
+            <td><pre lang="javascript">class ${1:name} {
+    ${0}
+}</pre></td>
+        </tr>
+    </tbody>
+</table>
 
-## extensions.ps1
+## reinstall-extensions.ps1
 
-Install all my previously installed extensions in one line.
+Install all previously installed extensions in one line.
 
-The `installed-extensions.ps1` file is generated through the `backup-extensions.ps1` script.
+The `reinstall-extensions.ps1` file is generated through the `backup-extensions.ps1` script.
 
 ## keybindings.json
 
