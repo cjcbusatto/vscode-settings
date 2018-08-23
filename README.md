@@ -1,17 +1,37 @@
 # vscode-settings
 
 ## snippets
-TBD
-### TypeScript
-TBD
-### JavaScript
-TBD
+### TypeScript / Javascript
+|          Snippet              |            Output            |
+|-------------------------------|------------------------------|
+| cl  | `console.log('$1');`                                   |
+| ce  | `console.error('$1');`                                 |
+| cw  | `console.warn('$1');`                                  |
+| de  | `debugger;`                                            |
+| wcl | `window.console.log('$1');`                            |
+| fn  | `function ${1:methodName} (${2:arguments}) {`          |
+|     | `${3:// body }`                                        |
+|     | `} `                                                   |
+| jp  | `JSON.parse(${1:obj});`                                |
+| js  | `JSON.stringify(${1:obj});`                            |
+| si  | `setInterval(function() { `                            |
+|     |	` ${0: // code} `                                      | 
+|     | `},${1:1000});`                                        |
+| st  | `setTimeout(function() {`                              |
+|     | `${0: // code}`                                        |
+|	  |	`}, ${1:1000});`                                       |
+| imp | `import ${1:moduleName} from '${1:module}';$0`         |
+| con | `constructor(${1:params}) {${0}}`                      |
+| fre | `${1:array}.forEach(${2:currentItem} => {\n\t${0}\n})` |
+| fof | `for (const ${1:item} of ${2:object}) {\n\t${0}\n}`    |
+| fin | `for (const ${1:item} in ${2:object}) {\n\t${0}\n}`    |
+| cls | `class ${1:name} {\n\t${0}\n}`                         |
 
-## extensions.ps1
+## reinstall-extensions.ps1
 
-Install all my previously installed extensions in one line.
+Install all previously installed extensions in one line.
 
-The `installed-extensions.ps1` file is generated through the `backup-extensions.ps1` script.
+The `reinstall-extensions.ps1` file is generated through the `backup-extensions.ps1` script.
 
 ## keybindings.json
 
