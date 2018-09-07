@@ -12,6 +12,12 @@
     },
     {
         "key": "ctrl+alt+l",
-        "command": "editor.action.format"
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+t",
+        "command": "trailing-spaces.deleteTrailingSpaces",
+        "when": "editorTextFocus"
     }
 ]
