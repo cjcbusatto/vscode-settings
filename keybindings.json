@@ -19,5 +19,29 @@
         "key": "alt+shift+t",
         "command": "trailing-spaces.deleteTrailingSpaces",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+0",
+        "command": "-editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+]",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+j",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+f8",
+        "command": "toggleVim"
     }
 ]

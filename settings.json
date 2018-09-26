@@ -19,8 +19,15 @@
         "TODO"
     ],
     "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Args": ["--max-line-length", "120", "--experimental"],
-    "python.linting.pylintArgs": ["--disable=E0611,E0401,C0103", "--module-naming-style=PascalCase"],
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120",
+        "--experimental"
+    ],
+    "python.linting.pylintArgs": [
+        "--disable=E0611,E0401,C0103",
+        "--module-naming-style=PascalCase"
+    ],
     "python.linting.pylintPath": "pylint",
     "[python]": {
         "editor.formatOnSave": true
@@ -29,12 +36,12 @@
     "window.zoomLevel": 0,
     "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
-    "vsicons.projectDetection.autoReload": true,
     "workbench.iconTheme": "eq-material-theme-icons-darker",
     "workbench.colorTheme": "Material Theme Darker High Contrast",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "breadcrumbs.enabled": true,
     "html.format.wrapAttributes": "aligned-multiple",
     "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1536677076220
+    "php-cs-fixer.lastDownload": 1537773888759,
+    "vim.disableExtension": true
 }
