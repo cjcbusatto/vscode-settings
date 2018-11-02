@@ -1,48 +1,61 @@
 {
-    "editor.glyphMargin": true,
-    "editor.mouseWheelZoom": true,
-    "editor.rulers": [
-        100
-    ],
-    "git.autofetch": true,
-    "git.ignoreMissingGitWarning": true,
-    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.1.20-Win32-VC14-x64\\php.exe",
-    "prettier.printWidth": 120,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
-    "prettier.trailingComma": "es5",
-    "prettier.useTabs": false,
-    "prettier.arrowParens": "always",
-    "python.linting.enabled": true,
-    "python.pythonPath": "C:\\Users\\cbusa\\AppData\\Local\\Programs\\Python\\Python37-32",
-    "todohighlight.keywords": [
-        "TODO"
-    ],
-    "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Args": [
-        "--max-line-length",
-        "120",
-        "--experimental"
-    ],
-    "python.linting.pylintArgs": [
-        "--disable=E0611,E0401,C0103",
-        "--module-naming-style=PascalCase"
-    ],
-    "python.linting.pylintPath": "pylint",
-    "[python]": {
-        "editor.formatOnSave": true
-    },
-    "window.titleBarStyle": "custom",
-    "window.zoomLevel": 0,
-    "workbench.statusBar.feedback.visible": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "breadcrumbs.enabled": true,
-    "html.format.wrapAttributes": "aligned-multiple",
-    "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1537773888759,
-    "trailing-spaces.trimOnSave": true,
-    "trailing-spaces.highlightCurrentLine": false
+  "editor.glyphMargin": true,
+  "editor.mouseWheelZoom": true,
+  "editor.rulers": [100],
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "git.autofetch": true,
+  "git.ignoreMissingGitWarning": true,
+  "php.validate.enable": true,
+  "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.2.2-Win32-VC15-x64\\php.exe",
+  "php.validate.run": "onType",
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.arrowParens": "always",
+  "python.linting.enabled": true,
+  "python.pythonPath": "C:\\Users\\cbusa\\AppData\\Local\\Programs\\Python\\Python37-32",
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": ["--max-line-length", "120", "--experimental"],
+  "python.linting.pylintArgs": ["--disable=E0611,E0401,C0103", "--module-naming-style=PascalCase"],
+  "python.linting.pylintPath": "pylint",
+  "[markdown]": {
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "breadcrumbs.enabled": true,
+  "html.format.wrapAttributes": "aligned-multiple",
+  "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1540473177968,
+  "trailing-spaces.trimOnSave": true,
+  "trailing-spaces.highlightCurrentLine": false,
+  "explorer.confirmDelete": false,
+  "workbench.statusBar.feedback.visible": false,
+  "window.restoreWindows": "none",
+  "githubPullRequests.hosts": [
+    {
+      "host": "https://github.com",
+      "username": "oauth",
+      "token": "system"
+    }
+  ],
+  "workbench.colorTheme": "Material Theme",
+
+  // Controls the font family.
+  "editor.fontFamily": "Consolas",
+  // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+  "editor.lineHeight": 24,
+  // Enables font ligatures
+  "editor.fontLigatures": true,
+  // Controls if file decorations should use badges.
+"explorer.decorations.badges": false,
+"terminal.integrated.fontFamily": "monospace",
 }
