@@ -3,6 +3,15 @@
   "editor.mouseWheelZoom": true,
   "editor.rulers": [100],
   "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.pyc": {"when": "$(basename).py"},
+    "**/__pycache__": true
+  },
   "git.autofetch": true,
   "git.ignoreMissingGitWarning": true,
   "php.validate.enable": true,
@@ -10,7 +19,7 @@
   "php.validate.run": "onType",
   "prettier.printWidth": 120,
   "prettier.singleQuote": true,
-  "prettier.tabWidth": 2,
+  "prettier.tabWidth": 4,
   "prettier.trailingComma": "es5",
   "prettier.useTabs": false,
   "prettier.arrowParens": "always",
@@ -34,19 +43,12 @@
   "breadcrumbs.enabled": true,
   "html.format.wrapAttributes": "aligned-multiple",
   "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1540473177968,
+  "php-cs-fixer.lastDownload": 1543240867802,
   "trailing-spaces.trimOnSave": true,
   "trailing-spaces.highlightCurrentLine": false,
   "explorer.confirmDelete": false,
   "workbench.statusBar.feedback.visible": false,
   "window.restoreWindows": "none",
-  "githubPullRequests.hosts": [
-    {
-      "host": "https://github.com",
-      "username": "oauth",
-      "token": "system"
-    }
-  ],
   "workbench.colorTheme": "Material Theme",
 
   // Controls the font family.
@@ -56,6 +58,17 @@
   // Enables font ligatures
   "editor.fontLigatures": true,
   // Controls if file decorations should use badges.
-"explorer.decorations.badges": false,
-"terminal.integrated.fontFamily": "Consolas",
+  "explorer.decorations.badges": false,
+  "terminal.integrated.fontFamily": "Consolas",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.enabledLanguageIds": [
+    "markdown"
+  ],
+  "cSpell.userWords": [
+    "busatto",
+    "castaldello",
+    "javascripts",
+    "stringify",
+    "workspaces"
+  ],
 }

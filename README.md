@@ -1,7 +1,19 @@
 # vscode-settings
 
+## Usage
+
+### (Re)Install extensions
+
+On Windows: with `code` installed and on the PATH, run the `reinstall-extensions.ps1`.
+
+### Backup extensions
+
+On Windows: with `code` installed and on the PATH, run the `backup-extensions.ps1`. The output is a `reinstall-extensions.ps1` file that easily (re)installs the extensions in a different Windows machine.
+
 ## snippets
+
 ### TypeScript / Javascript
+
 <table>
     <thead>
         <tr>
@@ -20,18 +32,18 @@
             </tr>
         <tr>
             <td>cw</td>
-            <td><pre lang="javascript">console.warn('$1');</pre></td> 
+            <td><pre lang="javascript">console.warn('$1');</pre></td>
         </tr>
         <tr>
             <td>de</td>
-            <td><pre lang="javascript">debugger;</pre></td>            
+            <td><pre lang="javascript">debugger;</pre></td>
         </tr>
         <tr>
             <td>wcl</td><td><pre lang="javascript">window.console.log('$1');</pre></td>
         </tr>
         <tr>
             <td>fn</td>
-            <td><pre lang="javascript">function ${1:methodName} (${2:arguments}) { 
+            <td><pre lang="javascript">function ${1:methodName} (${2:arguments}) {
     ${3:// body }
 } </pre></td>
         </tr>
@@ -45,7 +57,7 @@
         </tr>
         <tr>
             <td>si</td>
-            <td><pre lang="javascript">setInterval(function() { 
+            <td><pre lang="javascript">setInterval(function() {
     ${0: // code}
 }, ${1:1000});</pre>
             </td>
@@ -54,7 +66,7 @@
             <td>st</td>
             <td><pre lang="javascript">setTimeout(function() {
     ${0: // code}
-}, ${1:1000});</pre></td>     
+}, ${1:1000});</pre></td>
         </tr>
         <tr>
             <td>imp</td>
@@ -91,20 +103,21 @@
     </tbody>
 </table>
 
-## reinstall-extensions.ps1
-
-Install all previously installed extensions in one line.
-
-The `reinstall-extensions.ps1` file is generated through the `backup-extensions.ps1` script.
-
 ## keybindings.json
 
 | Command | Description |
 |---------|-------------|
 <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd> | Duplicate the line
+<kbd>ALT</kbd>+<kbd>Shift</kbd>+<kbd>&darr;</kbd> | Duplicate the line
 <kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> | Reformat the code using [`prettier`](https://github.com/prettier/prettier-vscode) extension
+<kbd>ALT</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> | Delete the trailing spaces using the [`trailing spaces`](https://github.com/shardulm94/vscode-trailingspaces)
+<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>[</kbd> | Fold all
+<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>]</kbd> | Unfold all
+<kbd>CTRL</kbd>+<kbd>0</kbd> | Open recent workspaces / projects
+<kbd>CTRL</kbd>+<kbd>R</kbd> | Go to symbol (used to jump directly to a method inside a class)
 
 ## settings.json
+
 | Command | Type | Description |
 |---------|------|-------------|
 "git.ignoreMissingGitWarning" | boolean | Ignores the warning when Git is missing
@@ -115,10 +128,11 @@ The `reinstall-extensions.ps1` file is generated through the `backup-extensions.
 "git.autofetch" | boolean | Enable to periodically fetch changes from your remotes
 "window.zoomLevel" | number | Adjust the zoom level
 "editor.mouseWheelZoom" | boolean | Enable the keybinding <kbd>CTRL</kbd>+<kbd>MouseScroll</kbd> to change the zoom
-"todohighlight.keywords" | string[] | Each element of the array is a `keyword` for [`TODO Higlight`](https://github.com/wayou/vscode-todo-highlight) extension. 
+"todohighlight.keywords" | string[] | Each element of the array is a `keyword` for [`TODO Higlight`](https://github.com/wayou/vscode-todo-highlight) extension.
 "prettier.printWidth" | number | Number of characters per line. This information is used by `prettier` to format code.
 
 ## LICENSE
+
 MIT License
 
 Copyright (c) 2018 Claudio Jose Castaldello Busatto
