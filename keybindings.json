@@ -41,10 +41,6 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+alt+>",
-        "command": "vscodefy.next"
-    },
-    {
         "key": "ctrl+` ctrl+f",
         "command": "workbench.action.focusSideBar"
     },
