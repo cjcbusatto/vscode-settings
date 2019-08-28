@@ -1,74 +1,70 @@
 {
-  "editor.glyphMargin": true,
-  "editor.mouseWheelZoom": true,
-  "editor.rulers": [100],
-  "eslint.validate": ["javascript", "javascriptreact", "vue"],
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/*.pyc": {"when": "$(basename).py"},
-    "**/__pycache__": true
-  },
-  "git.autofetch": true,
-  "git.ignoreMissingGitWarning": true,
-  "php.validate.enable": true,
-  "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.2.2-Win32-VC15-x64\\php.exe",
-  "php.validate.run": "onType",
-  "prettier.printWidth": 120,
-  "prettier.singleQuote": true,
-  "prettier.tabWidth": 4,
-  "prettier.trailingComma": "es5",
-  "prettier.useTabs": false,
-  "prettier.arrowParens": "always",
-  "python.linting.enabled": true,
-  "python.pythonPath": "C:\\Users\\cbusa\\AppData\\Local\\Programs\\Python\\Python37-32",
-  "python.formatting.provider": "autopep8",
-  "python.formatting.autopep8Args": ["--max-line-length", "120", "--experimental"],
-  "python.linting.pylintArgs": ["--disable=E0611,E0401,C0103", "--module-naming-style=PascalCase"],
-  "python.linting.pylintPath": "pylint",
-  "[markdown]": {
-    "editor.tabSize": 2
-  },
-  "[python]": {
-    "editor.formatOnSave": true
-  },
-  "window.titleBarStyle": "custom",
-  "window.zoomLevel": 0,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.iconTheme": "eq-material-theme-icons",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-  "breadcrumbs.enabled": true,
-  "html.format.wrapAttributes": "aligned-multiple",
-  "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1543240867802,
-  "trailing-spaces.trimOnSave": true,
-  "trailing-spaces.highlightCurrentLine": false,
-  "explorer.confirmDelete": false,
-  "workbench.statusBar.feedback.visible": false,
-  "window.restoreWindows": "none",
-  "workbench.colorTheme": "Material Theme",
+    "editor.glyphMargin": true,
+    "editor.mouseWheelZoom": true,
+    "editor.rulers": [100],
+    "eslint.validate": ["javascript", "javascriptreact", "vue"],
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/*.pyc": {"when": "$(basename).py"},
+      "**/__pycache__": true
+    },
+    "git.autofetch": true,
+    "git.ignoreMissingGitWarning": true,
+    "php.validate.enable": true,
+    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.2.2-Win32-VC15-x64\\php.exe",
+    "php.validate.run": "onType",
+    "prettier.printWidth": 120,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "prettier.useTabs": false,
+    "prettier.arrowParens": "always",
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Users\\cbusa\\AppData\\Local\\Programs\\Python\\Python37-32",
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": ["--max-line-length", "120", "--experimental"],
+    "python.linting.pylintArgs": ["--disable=E0611,E0401,C0103", "--module-naming-style=PascalCase"],
+    "python.linting.pylintPath": "pylint",
+    "[markdown]": {
+      "editor.tabSize": 2
+    },
+    "[python]": {
+      "editor.formatOnSave": true
+    },
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "breadcrumbs.enabled": true,
+    "html.format.wrapAttributes": "aligned-multiple",
+    "trailing-spaces.trimOnSave": true,
+    "trailing-spaces.highlightCurrentLine": false,
+    "explorer.confirmDelete": false,
+    "window.restoreWindows": "none",
+    "workbench.colorTheme": "Dracula",
 
-  // Controls the font family.
-  "editor.fontFamily": "Consolas",
-  // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
-  "editor.lineHeight": 24,
-  // Enables font ligatures
-  "editor.fontLigatures": true,
-  // Controls if file decorations should use badges.
-  "explorer.decorations.badges": false,
-  "terminal.integrated.fontFamily": "Consolas",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.enabledLanguageIds": [
-    "markdown"
-  ],
-  "cSpell.userWords": [
-    "busatto",
-    "castaldello",
-    "javascripts",
-    "stringify",
-    "workspaces"
-  ],
-}
+    // Controls the font family.
+    "editor.fontFamily": "Hack",
+    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+    "editor.lineHeight": 24,
+    // Enables font ligatures
+    "editor.fontLigatures": true,
+    // Controls if file decorations should use badges.
+    "explorer.decorations.badges": false,
+    "terminal.integrated.fontFamily": "Hack",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  }
