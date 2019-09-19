@@ -1,16 +1,19 @@
 # vscode-settings
 
-## Usage
+## Extensions
 
-### (Re)Install extensions
+### Reinstalling extensions
 
-On Windows: with `code` installed and on the PATH, run the `reinstall-extensions.ps1`.
+- Verify if the `code` command is available on the terminal (PowerShell on Windows), if not, add it in the PATH variable
+- On Windows installation, open PowerShell and execute the script `extensions/windows/reinstall-extensions.ps1`.
+- On Linux installation, open Terminal and execute the script `extensions/linux/reinstall-extensions.sh`.
 
-### Backup extensions
+### Backup the extensions
+- Verify if the `code` command is available on the terminal (PowerShell on Windows), if not, add it in the PATH variable
+- On Windows installation, open PowerShell and execute the script `extensions/windows/backup-extensions.ps1`.
+- On Linux installation, open Terminal and execute the script `extensions/linux/backup-extensions.sh`.
 
-On Windows: with `code` installed and on the PATH, run the `backup-extensions.ps1`. The output is a `reinstall-extensions.ps1` file that easily (re)installs the extensions in a different Windows machine.
-
-## snippets
+## Snippets
 
 ### TypeScript / Javascript
 
@@ -103,7 +106,9 @@ On Windows: with `code` installed and on the PATH, run the `backup-extensions.ps
     </tbody>
 </table>
 
-## keybindings.json
+## Settings
+
+### keybindings.json
 
 | Command | Description |
 |---------|-------------|
@@ -116,20 +121,48 @@ On Windows: with `code` installed and on the PATH, run the `backup-extensions.ps
 <kbd>CTRL</kbd>+<kbd>0</kbd> | Open recent workspaces / projects
 <kbd>CTRL</kbd>+<kbd>R</kbd> | Go to symbol (used to jump directly to a method inside a class)
 
-## settings.json
+### settings.json
 
 | Command | Type | Description |
 |---------|------|-------------|
-"git.ignoreMissingGitWarning" | boolean | Ignores the warning when Git is missing
-"php.validate.executablePath" | string | Path where PHP is installed
-"python.linting.enabled" | boolean | Enable linting on Python
-"editor.glyphMargin" | boolean | Controls whether the editor should render the vertical glyph margin
-"editor.rulers" | number[] | Each element of the array insert a ruler where the position is based on the number inserted
-"git.autofetch" | boolean | Enable to periodically fetch changes from your remotes
-"window.zoomLevel" | number | Adjust the zoom level
-"editor.mouseWheelZoom" | boolean | Enable the keybinding <kbd>CTRL</kbd>+<kbd>MouseScroll</kbd> to change the zoom
-"todohighlight.keywords" | string[] | Each element of the array is a `keyword` for [`TODO Higlight`](https://github.com/wayou/vscode-todo-highlight) extension.
-"prettier.printWidth" | number | Number of characters per line. This information is used by `prettier` to format code.
+| "breadcrumbs.enabled" | boolean | Enable/disable navigation breadcrumbs |
+| "editor.glyphMargin" | boolean | Controls whether the editor should render the vertical glyph margin
+| "editor.mouseWheelZoom" | boolean | Enable the keybinding <kbd>CTRL</kbd>+<kbd>MouseScroll</kbd> to  change the zoom
+| "editor.rulers" | number[] | Each element of the array insert a ruler helping to keep the code line inside a preconfigured length |
+| "editor.showFoldingControls | string | Controls whether the folds on control on the gutter are automatically hidden |
+| "editor.fontLigatures | boolean | Enable/disable font ligatures |
+| "editor.fontFamily | string |  Controls the font family |
+| "editor.lineHeight | number |  Controls the line height. Use 0 to compute the line height from the font size |
+| "editor.suggestSelection" | string | Controls how suggestions are pre-selected when showing the suggest list |
+| "explorer.confirmDelete | boolean | Controls whether the explorer should ask for confirmation when deleting a file |
+| "explorer.decorations.badges" | boolean | Controls whether file decorations should use badges |
+| "prettier.printWidth | number | Number of characters per line. This information is used by `prettier` to format code. |
+| "prettier.singleQuote | boolean | Replace double quotes to single quotes when possible |
+| "prettier.tabWidth | number | Describe the number of empty spaces for each tab |
+| "prettier.trailingComma" | string | Controls the printing of trailing commas wherever possible |
+| "prettier.useTabs" | boolean | Switch the usage of tabs to empty spaces |
+| "prettier.arrowParens" | string | Describe an arrow function style, e.g. use always parenthesis even when it is not explicitly required |
+| "eslint.validate" | string[] | Array of language names validated by ESLint |
+| "files.exclude" | Object | List of file extensions hidden on the workspace |
+| "git.autofetch" | boolean | Enable to periodically fetch changes from your remotes |
+| "git.ignoreMissingGitWarning" | boolean | Ignores the warning when Git is missing |
+| "python.pythonPath" | string | Describe where the python installation is located |
+| "python.formatting.provider" | string | Describe the formatting style, e.g. autopep8 |
+| "python.formatting.autopep8Args" | string[] | Arguments for PEP8 formatting, each argument is a separate item in the array |
+| "python.linting.pylintArgs" | string[] | Arguments for linting, each argument is a separate item in the array   |
+| "python.linting.pylintPath" | string | Path to Pylint, you can use a custom version of pylint by modifying this setting to include the full path  |
+| "python.jediEnabled" | boolean | Enables Jedi as IntelliSense engine instead of Microsoft Python Analysis Engine |
+| "window.titleBarStyle" | string | Adjust the appearance of the window title bar |
+| "window.zoomLevel" | number | Adjust the zoom level |
+| "window.restoreWindows | string | Controls how windows are being reopened on initialization |
+| "workbench.startupEditor" |  string | Controls which editor is shown at initialization, used to initialize the application in an clear state |
+| "workbench.iconTheme" |  string | Specifies the icon theme used in the workbench or 'null' to not show any file icons |
+| "workbench.colorTheme | string | Specifies the color theme used in the workbench |
+| "terminal.integrated.shell.windows" | string | The path of the shell that the terminal uses on Windows |
+| "html.format.wrapAttributes" | string | Wrap attributes when the line length is exceeded |
+| "trailing-spaces.trimOnSave | boolean | Controls whether trailing spaces are trimmed automatically when saving a file |
+| "trailing-spaces.highlightCurrentLine | boolean | By default, the line being currently edited will have its trailing spaces highlighted. Set to false to ignore trailing spaces on the edited line |
+| "javascript.updateImportsOnFileMove.enabled" | string | Enable/disable automatic updating the import paths when you rename or move a file in VS Code |
 
 ## LICENSE
 

@@ -1,0 +1,72 @@
+{
+  "editor.glyphMargin": true,
+  "editor.mouseWheelZoom": true,
+  "editor.rulers": [100],
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.pyc": {"when": "$(basename).py"},
+    "**/__pycache__": true
+  },
+  "git.autofetch": true,
+  "git.ignoreMissingGitWarning": true,
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 4,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.arrowParens": "always",
+  "python.linting.enabled": true,
+  "python.pythonPath": "C:\\Users\\cbusa\\AppData\\Local\\Programs\\Python\\Python37-32",
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": ["--max-line-length", "120", "--experimental"],
+  "python.linting.pylintArgs": ["--disable=E0611,E0401,C0103", "--module-naming-style=PascalCase"],
+  "python.linting.pylintPath": "pylint",
+  "[markdown]": {
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "breadcrumbs.enabled": true,
+  "html.format.wrapAttributes": "aligned-multiple",
+  "trailing-spaces.trimOnSave": true,
+  "trailing-spaces.highlightCurrentLine": false,
+  "explorer.confirmDelete": false,
+  "window.restoreWindows": "none",
+  "workbench.colorTheme": "Dracula",
+  "editor.showFoldingControls": "always",
+
+  // Controls the font family.
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code",
+  // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+  "editor.lineHeight": 24,
+
+  // Controls if file decorations should use badges.
+  "explorer.decorations.badges": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggestSelection": "first",
+  "python.jediEnabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
