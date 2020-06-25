@@ -1,9 +1,49 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+shift+d",
+        "key": "cmd+shift+d",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+shift+l",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+[",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+]",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "cmd+0",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "shift+cmd+right",
+        "command": "-cursorEndSelect",
+        "when": "textInputFocus"
     },
     {
         "key": "shift+alt+down",
@@ -11,58 +51,90 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+alt+l",
-        "command": "editor.action.format",
-        "when": "editorTextFocus"
+        "key": "shift+cmd+w",
+        "command": "-workbench.action.closeWindow"
     },
     {
-        "key": "alt+shift+t",
-        "command": "trailing-spaces.deleteTrailingSpaces",
-        "when": "editorTextFocus"
+        "key": "shift+alt+up",
+        "command": "-editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+alt+[",
-        "command": "editor.foldAll",
-        "when": "editorTextFocus"
+        "key": "cmd+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+k ctrl+0",
-        "command": "-editor.foldAll",
-        "when": "editorTextFocus"
+        "key": "alt+down",
+        "command": "-editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+alt+]",
-        "command": "editor.unfoldAll",
-        "when": "editorTextFocus"
+        "key": "cmd+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+k ctrl+j",
-        "command": "-editor.unfoldAll",
-        "when": "editorTextFocus"
+        "key": "alt+up",
+        "command": "-editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+` ctrl+f",
-        "command": "workbench.action.focusSideBar"
+        "key": "shift+cmd+down",
+        "command": "-cursorBottomSelect",
+        "when": "textInputFocus"
     },
     {
-        "key": "ctrl+0",
-        "command": "-workbench.action.focusSideBar"
+        "key": "shift+alt+cmd+down",
+        "command": "-cursorColumnSelectDown",
+        "when": "textInputFocus"
     },
     {
-        "key": "ctrl+0",
-        "command": "workbench.action.openRecent"
+        "key": "shift+cmd+left",
+        "command": "cursorWordAccessibilityLeftSelect",
+        "when": "accessibilityModeEnabled && textInputFocus"
     },
     {
-        "key": "ctrl+0",
-        "command": "workbench.action.quickOpenNavigateNextInRecentFilesPicker",
-        "when": "inQuickOpen && inRecentFilesPicker"
+        "key": "shift+alt+left",
+        "command": "-cursorWordAccessibilityLeftSelect",
+        "when": "accessibilityModeEnabled && textInputFocus"
     },
     {
-        "key": "ctrl+r",
-        "command": "workbench.action.gotoSymbol"
+        "key": "shift+alt+cmd+up",
+        "command": "-cursorColumnSelectUp",
+        "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+o",
-        "command": "-workbench.action.gotoSymbol"
-    }
+        "key": "shift+cmd+up",
+        "command": "-cursorTopSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+right",
+        "command": "cursorEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+end",
+        "command": "-cursorEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel"
+    },
 ]
